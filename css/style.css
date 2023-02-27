@@ -11,45 +11,72 @@ body{
     border: 2px solid black;
      background-color: #2874f0;
      display: flex;
-     justify-content: end;
+     justify-content: center;
      font-family: 'Roboto', sans-serif;
+     /* padding: 0 10px; */
 }
 .navbar-head{
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    padding: 10px 10px;
    
 }
 .navbar-head img{
     width: 75px;
+    cursor: pointer;
 }
 .navbar-head p{
     color: white;
-    font-size: 11px;
+    font-size: 12px;
     font-style: italic;
+
+}
+.navbar-head p:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 .navbar-head span{
     color: #ffe11b;
+    font-weight: 500;
 }
 .navbar-head span img{
     width: 10px;
 }
-.navbar-input{
-    border: 4px solid green;
-    width: 100%;
-    height: 50px;
-    display: inline-block;
-}
-.navbar-input input{
-    padding: 0 16px;
-    border-radius: 2px 0 0 2px;
-    border: 0;
-    outline: 0 none;
+.navbar-section input{
+    width: 35%;
+    margin: 10px 0;
+    padding-left: 10px;
     font-size: 14px;
-    height: 36px;
-    width: 100%;
+    
+}
+.navbar-section p{
+    padding: 0px 0px;
+}
+.navbar-section button{
+    margin: 12px 26px;
+    background-color: #fff;
+    font-size: 15px;
+    padding: 5px 40px;
+    color: #2874f0;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid #dbdbdb;
 }
 
+
 .navbar-head-content{
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
+    display: flex;
+    margin: 20px 0;
+}
+.navbar-head-content p{
+    padding: 0 20px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+.navbar-head-content i{
+    padding: 0 2px;
 }
 
 /* navbar section end here */
@@ -88,6 +115,8 @@ body{
 .electronic-section{
     border: 2px solid black;
     display: flex;
+    margin: 10px 0;
+    
 }
 .electronic-head-left{
     border: 2px solid red;
@@ -99,10 +128,15 @@ body{
     text-align: center;
     font-size: 14px;
     font-weight: 500;
+    cursor: pointer;
+
 }
 .electronic-head-right img{
     padding: 10px;
     align-items: center;
+}
+.electronic-head-right p{
+    margin-top: 10px;
 }
 .electronic-head-content{
     border: 2px solid blue;
@@ -114,6 +148,8 @@ body{
 .beauty-section{
     border: 2px solid black;
     display: flex;
+    margin: 10px 0;
+
 }
 .beauty-head-left{
     border: 2px solid red;
@@ -125,6 +161,8 @@ body{
     text-align: center;
     font-size: 14px;
     font-weight: 500;
+    cursor: pointer;
+
 }
 .beauty-head-right img{
     padding: 10px;
@@ -135,5 +173,67 @@ body{
     align-items: center;
 }
 /* Beauty section End here */
+
+/* summer section start here */
+.summer-section{
+    border: 2px solid black;
+    display: flex;
+    margin: 10px 0;
+
+}
+.summer-head-left{
+    border: 2px solid red;
+}
+.summer-head-right{
+    border: 2px solid green;
+    display: flex;
+    padding: 25px 15px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.summer-head-right img{
+    padding: 10px;
+    align-items: center;
+}
+
+
+.summer-head-content{
+    border: 2px solid blue;
+    align-items: center;
+}
+
+/* summer section End  here */
+
+/* sport section start here */
+.sport-section{
+    border: 2px solid black;
+    display: flex;
+    margin: 10px 0;
+}
+.sport-head-left{
+    border: 2px solid red;
+}
+.sport-head-right{
+    border: 2px solid green;
+    display: flex;
+    padding: 25px 15px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.sport-head-right img{
+    padding: 10px;
+    align-items: center;
+}
+.sport-head-content{
+    border: 2px solid blue;
+    align-items: center;
+}
+/* sport section End here */
 
 
