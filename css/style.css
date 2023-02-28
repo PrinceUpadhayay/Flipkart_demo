@@ -41,13 +41,25 @@ body{
 .navbar-head span img{
     width: 10px;
 }
-.navbar-section input{
-    width: 35%;
-    margin: 10px 0;
-    padding-left: 10px;
-    font-size: 14px;
-    
+.search-icon-div {
+    margin: 10px;
+    border-radius: 2px;
+    background-color: white;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
 }
+.search-icon-div input{
+    width: 100%;
+    padding: 0 10px;
+    outline: none;
+}
+
+
+
+
+
 .navbar-section p{
     padding: 0px 0px;
 }
